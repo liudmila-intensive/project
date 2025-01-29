@@ -1,5 +1,5 @@
 'use strict';
-
+/*
 var leftBorderWidth = 1;
 {
     let second = 2;
@@ -56,11 +56,11 @@ let incr = 10,
 /*incr++;
 decr--;
 console.log(incr); //11
-console.log(decr); //9 */
+console.log(decr); //9 
 
 //префиксная форма возвращает уже измененное значение, а постфиксная - старое
-/*console.log(++incr); //11
-console.log(--decr); //9 */
+console.log(++incr); //11
+console.log(--decr); //9 
 
 console.log(incr++); //10
 console.log(decr--); //10
@@ -76,7 +76,12 @@ console.log(isChecked || isClose); //true
 console.log(isChecked && !isClose); //true
 
 
-
+//alert("Hello");
+let answer = confirm("Are you here?");
+console.log(answer);
+*/
+let answer = prompt("Есть ли вам 18?", "Да");
+console.log(typeof(answer));
 
 
 
